@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON -->
+     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- SWIPER CSS -->
+     <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+    <!-- CSSS -->
     <link rel="stylesheet" href="/styles/style.css">
+    <!-- REMIX ICONS -->
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
     rel="stylesheet"/>
@@ -113,8 +119,84 @@
                 </div>
             </div>
          </section>
+
+         <!-- SERVICES -->
+          <section class="services-section" id="services">
+            <div class="services__container container grid">
+                <div class="services__data">
+                    <div>
+                        <span class="section__subtitle">Nossos Serviços</span>
+                        <h2 class="section__title">Escolha o melhor serviço</h2>
+                    </div>
+
+                    <a href="#contact" class="button">Fale Conosco</a>
+                    
+                </div>
+
+                <div class="services_swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="services__card swiper-slide">
+                            <div class="services__icon">
+                                <i class="ri-box-3-line"></i>
+                            </div>
+
+                            <h3 class="services__title">
+                                Instalação
+                            </h3>
+
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
+                        </article>
+
+                        <article class="services__card swiper-slide">
+                            <div class="services__icon">
+                                <i class="ri-tools-line"></i>
+                            </div>
+
+                            <h3 class="services__title">
+                                Manutenção
+                            </h3>
+
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            </p>
+                        </article>
+
+                        <article class="services__card swiper-slide">
+                            <div class="services__icon">
+                                <i class="ri-drop-line"></i>
+                            </div>
+
+                            <h3 class="services__title">
+                                Higienização
+                            </h3>
+
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Navigation button -->
+                <div class="swiper-button-prev">
+                    <i class="ri-arrow-left-line"></i>
+                </div>
+                
+                <div class="swiper-button-next">
+                    <i class="ri-arrow-right-line"></i>
+                </div>              
+                <div class="services__shape"></div>
+            </div>
+
+          </section>
      </main>
 
+     <!-- SWIPER JS -->
+      <script src="javascript/swiper-bundle.min.js"></script>
+
+     <!-- MAIN JS -->
      <script src="javascript/main.js"></script>
 </body>
 </html>

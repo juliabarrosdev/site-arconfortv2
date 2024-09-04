@@ -28,3 +28,18 @@ const linkAction = () =>{
     navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+// SWIPER SERVICES
+
+const swiper = new Swiper('.swiper', {
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 24,
+    slidesPerView: 'auto',
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+  });
