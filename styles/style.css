@@ -32,6 +32,10 @@ body{
     background-color: var(--neutre-color-1);
 }
 
+span{
+    font-weight: bold;
+}
+
 /* HEADER AND NAV */
 
 .header{
@@ -39,7 +43,7 @@ body{
     width: 100%;
     top: 0;
     left: 0;
-    padding: 30px 8%;
+    /* padding: 30px 8%; */
     background-color: var(--primary-color-1);
     z-index: var(--z-index-fixed);
 }
@@ -112,6 +116,79 @@ body{
 .show-menu{
     right: 0;
 }
+
+/* HOME */
+
+.home{
+    position: relative;
+}
+
+.home__container{
+    position: relative;
+    row-gap: 3rem;
+    padding-block: 2.5rem 6rem;
+}
+
+.home__content{
+    row-gap: 2.5rem;
+}
+
+.home__data{
+    text-align: center;
+}
+
+.home__title{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.home__description{
+    margin-bottom: 2rem;
+}
+
+.home__button{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.home__button .button{
+    background-color: var(--primary-color-1);
+    color: var(--neutre-color-1);
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.home__info{
+    display: flex;
+    justify-content: center;
+    column-gap: 4.5rem;
+}
+
+.home__social_content{
+    display: flex;
+    gap: 2rem;
+}
+
+.home__social{
+    background-color: var(--primary-color-1);
+    border-radius: 100%;
+    color: var(--neutre-color-1);
+    padding: 5px 10px;
+}
+
+.home__image{
+    margin-top: 1.5rem;
+    position: relative;
+    text-align: center;
+}
+
+.home__img-1{
+    width: 350px;
+    height: 300px;
+}
+
 
 /* BUTTON */
 
