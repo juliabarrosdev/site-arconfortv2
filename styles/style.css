@@ -32,6 +32,14 @@ body{
     background-color: var(--neutre-color-1);
 }
 
+.section__subtitle{
+    color: var(--primary-color-1);
+}
+
+.section__title{
+    margin-bottom: 1rem;
+}
+
 span{
     font-weight: bold;
 }
@@ -203,4 +211,30 @@ span{
 
 .button:hover{
     box-shadow: var(--box-shadow);
+}
+
+/* ABOUT */
+
+.about__container{
+    row-gap: 8rem;
+}
+
+.about__data{
+    text-align: center;
+}
+
+.about__description{
+    margin-bottom: 2rem;
+}
+
+.about__image{
+    text-align: center;
+    position: relative;
+    justify-self: center;
+}
+
+.about__img-1{
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color-1);
 }
