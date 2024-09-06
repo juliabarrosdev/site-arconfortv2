@@ -324,9 +324,11 @@ span{
 }
 
 .partners__img{
-    width: 150px;
+    width: 130px;
     height: 50px;
 }
+
+/* CONTACT */
 
 /* Swiper Class */
 
@@ -365,3 +367,49 @@ span{
     padding: 30px;
     gap: 1rem;
 }
+
+/* CONTACT */
+
+.container__data{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.contact__container{
+    row-gap: 3rem;
+    padding-block: 1.5rem 3rem;
+}
+
+.contact__data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+
+.contact__card{
+    border: 2px solid gray;
+    width: 70%;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    transition: border-color .4s;
+}
+
+.contact__card:hover{
+    border-color: var(--primary-color-1);
+}
+
+.contact__icon{
+    color: var(--primary-color-1);
+}
+
+.contact__title{
+    font-size: medium;
+    margin-bottom: .5rem;
+}
+
+.contact__info{
+    font-size: medium;
+}
+
