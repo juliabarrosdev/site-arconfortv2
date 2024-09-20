@@ -413,3 +413,26 @@ span{
     font-size: medium;
 }
 
+/* FOOTER */
+
+footer{
+    text-align: center;
+    align-items: center;
+    background-color: lightgray;
+    padding: 40px 50px;
+}
+
+.footer__copy {
+    margin-bottom: 0.5rem;
+}
+
+.dev__info a{
+    text-decoration: none;
+    color: var(--primary-color-2);
+}
+
+p{
+    font-size: small;
+    color: black;
+}
+
