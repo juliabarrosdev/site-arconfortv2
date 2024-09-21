@@ -293,7 +293,7 @@ span{
 
 .services__title{
     font-size: large;
-    font-weight: 500;
+    font-weight: bold;
     margin-bottom: .5rem;
     color: var(--primary-color-1);
 }
@@ -419,7 +419,12 @@ footer{
     text-align: center;
     align-items: center;
     background-color: lightgray;
-    padding: 40px 50px;
+    padding: 30px 50px;
+}
+
+footer p{
+    font-size: small;
+    color: black;
 }
 
 .footer__copy {
@@ -430,9 +435,3 @@ footer{
     text-decoration: none;
     color: var(--primary-color-2);
 }
-
-p{
-    font-size: small;
-    color: black;
-}
-
