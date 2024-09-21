@@ -328,8 +328,6 @@ span{
     height: 50px;
 }
 
-/* CONTACT */
-
 /* Swiper Class */
 
 .swiper{
@@ -466,8 +464,6 @@ footer p{
         display: none;
    }
 
-   
-
    .contact__info {
     text-align: center; /* Adicione esta linha */
     font-size: 0.75rem;
@@ -478,5 +474,51 @@ footer p{
 
 /* FOR MEDIUM DEVICES */
 
+@media screen and (min-width: 540px ) {
+    .home__container, .about__container, .services__container, .contact__container {
+        justify-content: center;
+    }
+
+    .home__image {
+        display: none;
+   }
+   
+   .about__description {
+        font-size: 1rem;
+   }
+}
+
+@media screen and (min-width: 768px) {
+    
+    .nav__menu{
+        width: 50%;
+    }
+    
+    .home__image {
+        display: block;
+    }
+
+    .home__img-1 {
+        width: 400px;
+    }
+
+   .about__img-1 {
+        width: 320px;
+   }
+
+   .services__card {
+        width: 27%;
+   }
+
+   .contact__data {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+   }
+
+   .contact__card {
+        width: 35%;
+   }
+}
 
 /* FOR LARGE DEVICES */
