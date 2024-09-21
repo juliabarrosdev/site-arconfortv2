@@ -394,6 +394,10 @@ span{
     padding: 1.5rem 2rem;
     text-align: center;
     transition: border-color .4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact__card:hover{
@@ -412,6 +416,7 @@ span{
 .contact__info{
     font-size: medium;
 }
+
 
 /* FOOTER */
 
@@ -435,3 +440,43 @@ footer p{
     text-decoration: none;
     color: var(--primary-color-2);
 }
+
+/* BREAKPOINTS */
+
+/* FOR SMALL DEVICES */
+@media screen and (max-width: 340px) {
+    
+    .container {
+        margin-inline: 1rem;
+    }
+
+    .section__title{
+        font-size: 1.25rem;
+    }
+
+   .home__title{
+    font-size: 1.75rem;
+   }
+
+   .home__description {
+    font-size: 0.95rem;
+   }
+
+   .home__image {
+        display: none;
+   }
+
+   
+
+   .contact__info {
+    text-align: center; /* Adicione esta linha */
+    font-size: 0.75rem;
+    align-items: center;
+}
+
+}
+
+/* FOR MEDIUM DEVICES */
+
+
+/* FOR LARGE DEVICES */
